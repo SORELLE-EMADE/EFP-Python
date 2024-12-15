@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      <style > .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+   
+      
+      .position1 {
+        position: absolute;
+        display: flex;
+        top: 40%;
+        left: 25%;
+        height: 700px;
+        width: 100%;
+        
+      }
+      
+      
+      .position2 {
+        text-align: center;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 20px;
+      }
+      .position3 {
+        font-weight: normal;
+      }
+      .position4 {
+        position: absolute;
+        top: 2%;
+        left: 20%;
+        margin: 0;
+        height: auto;
+        width: 120px;
+      }
+      .image2 {
+        height: auto;
+        width: 120px;
+      }
+      .position5 {
+        position: absolute;
+        top: 2%;
+        right: 20%;
+        margin: 0;
+      }
+      .image3 {
+        width: 40px;
+        height: auto;
+      }
+      .position6 {
+        top: 115%;
+        position: absolute;
+        left: 25%;
+      }
+      .text1 {
+        font-weight: normal;
+      }
+      .text2 {
+        left: 45%;
+      }
+      .text3 {
+        align-items: center;
+        font-weight: normal;
+      }
+      .position7 {
+        position: absolute;
+      }
+      .image5 {
+        
+        width: 90%;
+        height: 90px;
+      }
+      .position8 {
+        line-height: 1.2;
+        top: 115%;
+        position: absolute;
+        right: 30%;
+      }
+      .text4 {
+        align-items: center;
+        font-weight: normal;
+      }
+      .position9 {
+        line-height: 1.2;
+        top: 140%;
+        position: absolute;
+        right: 20%;
+      }
+      .image7 {
+        
+        width: 380px;
+        height: 200px;
+      }
+      .position10 {
+        line-height: 1.2;
+        top: 180%;
+        position: absolute;
+        left: 20%;
+      }
+      .image8 {
+        width: 380px;
+        height: 200px;
+      }
+      .position11 {
+        position: absolute;
+        line-height: 1.2;
+        top: 140%;
+        left: 20%;
+      }
+      .position12{
+        line-height: 1.2;
+        top: 228%;
+        position: absolute;
+        right: 20%;
+
+      }
+      .image9{
+        width: 400px;
+        height: 190px;
+
+      }
+      .position13{
+        left: 18%;
+        line-height: 1.2;
+        top: 280%;
+        position: absolute;
+        
+      }
+      .image10{
+        width: auto;
+        height: 190PX;
+      }
+      .position14{
+        line-height: 1.2;
+        top: 125%;
+        position: absolute;
+        left: 15%;
+        
+      }
+      .image11 {
+        width: 100%;
+        height: 240px;
+
+      }
+      .position15{
+        line-height: 1.2;
+        top: 145%;
+        position: absolute;
+        left: 15%;
+        
+      }
+      .image12 {
+        width: 100%;
+        height: 300px;
+
+      }
+      .position16{
+        line-height: 1.2;
+        top: 210%;
+        position: absolute;
+        left: 15%;
+        
+      }
+      .image13 {
+        width: 100%;
+        height: 240px;
+
+      }
+      .position17{
+        line-height: 1.2;
+        top: 235%;
+        position: absolute;
+        left: 15%;
+        
+      }
+      .image14 {
+        width: 100%;
+        height: 300px;
+
+      }
+      .position18 {
+        line-height: 1.2;
+        top: 230%;
+        position: absolute;
+        left: 20%;
+      }
+      .position19 {
+        line-height: 1.2;
+        top: 180%;
+        position: absolute;
+        right: 20%;
+      }
+      .rose1{
+        position: absolute;
+        top: -20%;
+        left:20%;
+      }
+      .rose2{
+        
+       position: absolute;
+        background-color: pink;
+        padding: 20px 110px;
+        border-radius: 40px;
+     
+        top: 30%;
+        left: 45%;
+      }
+      .rose3{
+        position: absolute;
+        top: 259%;
+        left:48%;
+      }
+      .rose4{
+        
+       position: absolute;
+        background-color: pink;
+        padding: 20px 110px;
+        border-radius: 40px;
+     
+        top: 260%;
+        left: 45%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- Try it free Build The Community Your Fans Will Love Huddle re-imagines the
+    way we build communities. You have a voice, but so does your audience.
+    Create connections with your users as you engage in genuine discussion. Get
+    Started For Free 1.4k+ Communities Formed 2.7m+ Messages Sent Grow Together
+    Generate meaningful discussions with your audience and build a strong, loyal
+    community. Think of the insightful conversations you miss out on with a
+    feedback form. Flowing Conversations You wouldn't paginate a conversation in
+    real life, so why do it online? Our threads have just-in-time loading for a
+    more natural flow. Your Users It takes no time at all to integrate Huddle
+    with your app's authentication solution. This means, once signed in to your
+    app, your users can start chatting immediately. Ready To Build Your
+    Community? Get Started For Free Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices
+    quis sem. Phone: +1-543-123-4567 example@huddle.com Newsletter To recieve
+    tips on how to grow your community, sign up to our weekly newsletter. We’ll
+    never send you spam or pass on your email address Subscribe-->
+    <div class="position1">
+      <img
+        src="images/screen-mockups.svg"
+        alt="screen-mockups"
+        class="image1"
+      />
+    </div>
+    <div class="position2">
+      <h1 >
+        Build The Community Your Fans Will Love
+      </h1>
+
+      <div class="position3">
+        <h5 class="text1">
+          <p>Huddle re-imagines the way we build communities. You have a</p>
+          <p>voice, butso does your audience. Create connections with your</p>
+          <p>users as you engage in genuine discussion</p></p>
+          
+          
+          
+        </h5>
+      </div>
+    </div>
+    <div class="position4">
+      <img src="images/logo.svg" alt="logo.svg" class="image2" />
+    </div>
+    <div class="position5">
+      <img src="images/icon-messages.svg" alt="" class="image3" />
+    </div>
+    <div class="position6">
+      <img src="images/icon-communities.svg" alt="" class="image4" />
+      <h2 class="text2">1.4k+</h2>
+      <h6 class="text3">Communities formed</h6>
+    </div>
+    <!--<div class="position7">
+      <img src="images/bg-footer-top-desktop.svg" alt="" class="image5" />
+    </div>-->
+    <div class="position8">
+      <img src="images/icon-messages.svg" alt="" class="image6" />
+      <h2 class="text2">2.7m+</h2>
+      <h6 class="text3">Messages Sent</h6>
+    </div>
+   
+    <div class="position10">
+      <img
+        src="images/illustration-flowing-conversation.svg"
+        alt=""
+        class="image8"
+      />
+    </div>
+    
+    <div class="position11">
+      <h2>Grow Together</h2>
+      <h6 class="text4">
+        <p>Generate meaningful discussions with your audience and build a </p3><p>strong,
+        loyal community. Think of the insighful conservations you</p><p> miss out on
+        with a feedback form.</p>
+      </h6>
+    </div>
+   
+    <div class="position13">
+      <img src="images/bg-footer-top-mobile.svg" alt="" class="image10">
+    </div>
+    <div>
+    <div class="position14">
+      <img src="images/bg-section-top-desktop-2.svg" alt="" class="image11">
+    </div>
+    <div class="position15">
+      <img src="images/bg-section-bottom-desktop-1.svg" alt="" class="image12">
+    </div>
+    <div class="position11">
+      <h2>Your Users</h2>
+      <h6 class="text4">
+        <p>It takes no time at all to integrate Huddle with your app's</p> <p>authentication solution. This means , once signed in to your app, your</p>
+        <p>users can start chatting immediately</p>
+      </h6>
+    </div>
+    <div class="position9">
+      <img src="images/illustration-grow-together.svg" alt="" class="image7" />
+    </div>
+  </div>
+
+
+
+
+
+  <div>
+    <div class="position16">
+      <img src="images/bg-section-top-desktop-2.svg" alt="" class="image13">
+    </div>
+    <div class="position17">
+      <img src="images/bg-section-bottom-desktop-1.svg" alt="" class="image14">
+    </div>
+    <div class="position18">
+      <h2>Grow Together</h2>
+      <h6 class="text4">
+        <p>Generatemeaningful discussions with your audience and build a </p3><p>strong,
+        loyal community. Think of the insighful conservations you</p><p> miss out on
+        with a feedback form.</p>
+      </h6>
+    </div>
+    <div class="position12">
+      <img src="images/illustration-your-users.svg" alt="" class="image9" >
+    </div>
+  </div>
+  <div class="position19">
+    <h2>Flowing Conversations</h2>
+    <h6>
+      <p>You wouldn't paginate a conversation in real life, so why do it online?</p>
+      <p>Our threads have just-in-time loading for a more natural flow</p>
+    </h6>
+  </div>
+  <div class="rose2">
+    <h5 class="rose1">Get Started For Free</h5>
+  </div>
+  <div class="rose4"></div>
+    <h5 class="rose3">Get Started For Free</h5>
+  </div>
+
+    <!--<footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">EMADE ELONE SORELLE</a>.
+      </p>
+    </footer>-->
+  </body>
+</html>
+
